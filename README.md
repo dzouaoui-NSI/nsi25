@@ -1,5 +1,5 @@
-# nsi22
-# Cours NSI Première 2021-2022
+# nsi23
+# Cours NSI Première 2022-2023
 # Spécialité NSI au lycée Jean Rostand
 Informations utiles aux élèves du lycée et à leur famille...
 
@@ -29,4 +29,4 @@ Informations utiles aux élèves du lycée et à leur famille...
 
 ## Pour me Contacter
 
-* dzouaoui@gmail.com
+* rostand.dz23@gmail.com
