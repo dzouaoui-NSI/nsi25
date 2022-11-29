@@ -1,0 +1,47 @@
+let tabImages = ["img/image0.jpg",
+	"img/image1.jpg",
+	"img/image2.jpg",
+	"img/image3.jpg",
+	"img/image4.jpg",
+	"img/image5.jpg",
+	"img/image6.jpg",
+	"img/image7.jpg",
+	"img/image8.jpg",
+	"img/image9.jpg",
+	"img/image10.jpg",
+	"img/image11.jpg",
+	"img/image12.jpg",
+	"img/image13.jpg"
+]
+
+let tabNoms = ["Tim Berners-Lee",
+	"George Boole",
+	"Robert Cailliau",
+	"Ada Lovelace",
+	"Gordon Earle Moore",
+	"John von Neumann",
+	"Blaise Pascal",
+	"Dennis Ritchie",
+	"Richard Stallman",
+	"Ken Thompson",
+	"Linus Torvalds",
+	"Alan Turing",
+	"Guido van Rossum",
+	"Euclide"
+]
+
+let tabApports = ["Cofondateur du web",
+	"Algèbre de boole",
+	"Cofondateur du web",
+	"Premier programme informatique",
+	"Loi de Moore",
+	"Architecture des processeurs",
+	"Première machine à calculer",
+	"Langage C, Unix",
+	"Logiciel libre, projet GNU",
+	"Langage C, Unix",
+	"Noyau Linux",
+	"Fondateur de l'infromatique scientifique, machine de Turing",
+	"Langage Python",
+	"Premier algorithme : l'algorithme d'Euclide"
+]

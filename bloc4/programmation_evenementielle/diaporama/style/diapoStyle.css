@@ -1,0 +1,22 @@
+.diaporama {
+    text-align:center;
+    column-count: 2;
+}
+img{
+    height : 500px;
+}
+
+#buttons{
+    text-align : center;
+}
+
+button {
+	margin:10px;
+	background-color : #444444;
+	color: white;
+	font-weight:bold;
+	padding:5px;
+}
+button:hover {
+	background-color:#888888;
+}

@@ -1,0 +1,6 @@
+body {
+  column-count: 2;
+}
+input[type="button"] {
+  margin-left : -20%;
+}

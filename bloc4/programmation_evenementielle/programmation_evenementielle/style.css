@@ -1,0 +1,35 @@
+body{
+  margin-left : 30px;
+  margin-right : 30px;
+}
+
+.images{
+  text-align: center;
+}
+
+figure {
+  display:inline-block;
+  width : 25%
+}
+
+figcaption{
+  text-align: right;
+}
+button {
+  display : block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img{
+  width:100%
+}
+
+.exemples p, .exemples li{
+  font-size : 25px;
+   margin-left: 50px
+}
+
+h1+p{
+  text-align: center;
+}

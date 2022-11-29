@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <h1>LE JAVASCRIPT</h1>
+    <p><a href="https://fr.wikipedia.org/wiki/JavaScript">Javascript</a> a été créé en 1995 par Brendan Eich</p>
+
+
+    <h2>Le JavaScript : pour quoi faire ?</h2>
+    <p>Pour l'instant dans le domaine du web, vous connaissez HTML (pour la structure et le contenu du document web)
+    et le CSS (pour la mise en forme du document web). Ces 2 langages permettent uniquement de faire des pages web <strong>statiques</strong>
+    c'est-à-dire <em>"figées"</em> une fois pour toute par le concepteur de la page (si on excepte quelques animations possibles en CSS)
+    Contrairement à HTML et CSS, JavaScript est un <strong>langage de programmation</strong>.</p>
+    <p>Comme en python, on retrouvera donc les constructions élémentaires de la programmation comme les notions de variables et de type,
+    d'isntructions conditionnelles, de boucles, de tableau etc...</p>
+    <p>Grâce à du code Javascript, on va pouvoir manipuler les documents web et donc rendre les pages web <strong>dynamiques</strong> :
+    les pages web (contenu et mise en forme) peuvent évoluer et interagir avec les actions du visiteur de la page</p>
+    <p>Le Javascript est un langage <strong>côté client</strong> : c'est le <strong>navigateur web</strong> (Firefox, Chrome, etc...)
+    qui va interpréter le code javascript et modifier en conséquence l'affichage obtenu.</p>
+
+
+    <h2>Pincipes de la programmation événementielle</h2>
+
+    <p><strong><a href="https://fr.wikipedia.org/wiki/Programmation_%C3%A9v%C3%A9nementielle">La programmation événementielle</a></strong>,
+      consiste à déclencher l'exécution d'une <strong>fonction</strong> lorsqu'un <strong>évènement</strong>
+      sur l'<strong>élément cible</strong> apparaît.
+      <p>On parle d'<strong>abonnement</strong> de la fonction à l'élément pour l'évenement.
+      La fonction attachée à un ́evenement est appelee <strong>"fonction gestionnaire d'évenement"</strong> ou <strong>"fonction d'écoute"</strong>
+      ou encore <strong>fonction "event listener"</strong>
+    </p>
+
+    <p>Voici quelques exemples d'événements :</p>
+    <ul>
+      <li>l'utilisateur a cliqué avec le bouton droit (événement) à tel endroit de la page (élément cible)</li>
+      <li>l'utilisateur a enfoncé (événement) telle touche du clavier (élément cible)</li>
+      <li>la fenêtre (élément cible) a fini de se charger (événement)</li>
+      <li>un téléchargement (élément cible) est terminé (événement)....</li>
+      <li>...................</li>
+    </ul>
+    <p>Vous trouverez <a href="https://developer.mozilla.org/fr/docs/Web/Events">ici</a>
+      la (longue) liste des évènements qu'on peut gérer en javascript.</p>
+  </p>
+
+  <p>On  peut ainsi créer des <strong>interactions avec le visiteur dans une page web</strong>. En programmation événementielle,
+    le déroulement du programme n'est plus séquentiel comme ce qu'on a vu jusqu'à présent en python,
+    mais il est déterminé par les différents événements extérieurs qui peuvent apparaître.</p>
+
+    <h2>Exemples</h2>
+
+    <div class="exemples">
+      <p>Un événement "clic" sur cette phrase (paragraphe cible) va déclencher...</p>
+      <p>D'autres événements ont été programmés sur les deux éléments de cette liste :</p>
+      <ul>
+        <li id="monItem1">Un événement "double clic" sur cet item de liste va déclencher...</li>
+        <li id="monItem2">Un événement "survol de la souris" sur cet item de liste va déclencher du code javascript qui en change la couleur</li>
+      </ul>
+      <div class="images">
+        <figure>
+            <img id="image1" src="img/BrendanEich.jpg" alt="Brendan Eich, inventeur du javascript">
+          <figcaption>Brendan Eich</figcaption>
+        </figure>
+        <figure>
+            <img id="image2" src="img/LogoJS.png" alt="Logo de javascript">
+          <figcaption>Logo de javascript</figcaption>
+        </figure>
+        <button type="button">Permuter les photos</button>
+      </div>
+      <p>Tappez sur nimporte quelle touche pour remettre la page dans son état initial</p>
+    </div>
+  </body>
+</html>
