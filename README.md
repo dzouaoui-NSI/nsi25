@@ -1,6 +1,6 @@
-# nsi23
+# nsi25
 # Cours NSI Première 2024-2025
-# Spécialité NSI au lycée Jean Rostand
+# Spécialité NSI.
 Informations utiles aux élèves du lycée et à leur famille...
 
 * Dans **informations_diverses** : Toutes les informations générales sur la spécialité NSI au lycée Jean Rostand. La lecture des documents s'y trouvant est recommandée.
